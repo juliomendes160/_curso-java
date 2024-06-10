@@ -1,0 +1,22 @@
+
+public class Data {
+	int dia;
+	int mes;
+	int ano;
+	
+	Data(int dia, int mes, int ano){
+		this.dia = dia;
+		this.mes = mes;
+		this.ano = ano;
+	}
+	
+	String Formatar(int formato) {
+		switch(formato) {
+			case 1: 
+				return this.dia +"/"+ this.mes +"/"+ this.ano;
+			case 2: 
+				return this.ano+"/"+ this.mes +"/"+ this.dia;
+		}
+		return "a";
+	}
+}

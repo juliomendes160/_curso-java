@@ -1,0 +1,18 @@
+
+public class Jantar {
+	public static void main(String[] args) {
+		
+		Comida comida1 = new Comida("feijão", 200);
+		Comida comida2 = new Comida("arroz", 300);
+		
+		Pessoa pessoa1 = new Pessoa("Jefferson", 100);
+		Pessoa pessoa2 = new Pessoa("Debora", 80);
+		
+		System.out.println("1ª Pessoa - Peso:"+ pessoa1.Comer(comida1));
+		System.out.println("1ª Pessoa - Peso:"+ pessoa1.Comer(comida2));
+		
+		System.out.println(pessoa2.Comer(comida1));
+		System.out.println(pessoa2.Comer(comida2));
+		
+	}
+}

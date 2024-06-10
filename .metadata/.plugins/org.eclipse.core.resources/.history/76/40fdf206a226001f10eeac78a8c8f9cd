@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class While {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		double nota;
+		double totalNota = 0;
+		int notaValida = 0;
+		
+		while(true) {
+			System.out.println("Informe a nota!");
+			nota = scanner.nextDouble();
+			
+			if (nota == -1 && totalNota != 0) {
+				System.out.println(totalNota / notaValida);
+				break;
+			}
+			else if (nota == -1 && totalNota != 0) {
+				System.out.println("");
+				break;
+			}
+		}
+		
+		scanner.close();
+	}
+}

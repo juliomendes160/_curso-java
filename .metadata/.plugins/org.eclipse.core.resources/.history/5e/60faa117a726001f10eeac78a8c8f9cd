@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Primo {
+	public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite um número: ");
+        int numero = scanner.nextInt();
+        
+        boolean primo = true;
+        
+        if (numero <= 1) {
+        	primo = false;
+        }
+        
+        for (int i = 2; i <= Math.sqrt(numero); i++) {
+            if (numero % i == 0) {
+                primo = false;
+            }
+        }
+
+        if (primo) {
+            System.out.println("O número " + numero + " é primo.");
+        } 
+        else {
+            System.out.println("O número " + numero + " não é primo.");
+        }
+
+        scanner.close();
+    }
+
+    // Função que verifica se um número é primo
+    public static boolean ehPrimo(int num) {
+        // Números menores ou iguais a 1 não são primos
+       
+        
+        // Verifica se o número é divisível por algum número entre 2 e a raiz quadrada do número
+        
+
+        // Se não for divisível por nenhum número, é primo
+        return true;
+    }
+}

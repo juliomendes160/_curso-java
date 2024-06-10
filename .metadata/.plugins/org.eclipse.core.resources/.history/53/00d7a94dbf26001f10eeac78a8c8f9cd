@@ -1,0 +1,20 @@
+
+public class Produto {
+	String nome;
+	double preco;
+	static double desconto = 0.25;
+	
+	Produto(){
+		
+	}
+	
+	Produto(String nome, double preco){
+		this.nome = nome;
+		this.preco = preco;
+	}
+	
+	static double Desconto() {
+		return preco - preco * desconto;
+	}
+
+}

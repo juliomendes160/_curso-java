@@ -1,0 +1,10 @@
+
+public class Pessoa {
+	
+	String nome;
+	double peso;
+	
+	void Comer(Comida comida) {
+		this.peso += comida.peso; 
+	}
+}

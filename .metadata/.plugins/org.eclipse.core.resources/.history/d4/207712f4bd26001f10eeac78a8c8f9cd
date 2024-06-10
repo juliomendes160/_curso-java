@@ -1,0 +1,8 @@
+
+public class ProdutoTeste {
+	public static void main(String[] args) {
+		Produto produto1 = new Produto("Cadeira", 10);
+		Produto produto2 = new Produto("Mesa", 20);
+	}
+
+}

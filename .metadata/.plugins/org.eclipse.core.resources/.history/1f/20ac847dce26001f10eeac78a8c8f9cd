@@ -1,0 +1,15 @@
+
+public class Comida {
+	
+	String nome;
+	double pesoGramas;
+	
+	Comida(String nome, double gramas){
+		this.nome = nome;
+		this.pesoGramas = gramas;
+	}
+	
+	double Quilos() {
+		return this.pesoGramas / 1000;
+	}
+}

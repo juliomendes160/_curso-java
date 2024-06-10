@@ -1,0 +1,12 @@
+
+public class ProdutoTeste {
+	public static void main(String[] args) {
+		Produto produto1 = new Produto("Cadeira", 10);
+		Produto produto2 = new Produto("Mesa", 20);
+		Produto.desconto = 0.90;
+		
+		System.out.println("1ª Produto: Nome"+ produto1.nome +", Preço: "+ produto1.preco +", Preço com desconto: "+ produto1.Desconto());
+		System.out.println("2ª Produto: "+ produto2.nome +", Preço: "+ produto2.preco +", Preço com desconto: "+ produto2.Desconto());
+	}
+
+}

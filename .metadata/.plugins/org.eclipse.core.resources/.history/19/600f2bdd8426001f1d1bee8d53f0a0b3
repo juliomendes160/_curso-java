@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class conversao {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Informe o 1ª salário \"(exemplo: 1200.12 ou 1200,12)\":");
+		String salario1 = scanner.nextLine().replace(",", ".");
+		
+		System.out.println("Informe o 2ª salário \"(exemplo: 2200.22 ou 2200,22)\":");
+		String salario2 = scanner.nextLine().replace(",", ".");;
+		
+		System.out.println("Informe o 3ª salário \"(exemplo: 3200.32 ou 3200,32)\":");
+		String salario3 = scanner.nextLine().replace(",", ".");
+		
+		double mediaSalarial = MediaSalarial(
+			Conversao(salario1),
+			Conversao(salario2), 
+			Conversao(salario3)
+		);
+		
+		System.out.println("A sua média salarial é: " + mediaSalarial);
+		
+		scanner.close();
+	}
+	
+	static double Conversao(String salario) {
+		return Double.parseDouble(salario);
+	}
+	
+	static double MediaSalarial(double salario1, double salario2, double salario3) {
+		return (salario1 + salario2 + salario3) / 3;
+	}
+}

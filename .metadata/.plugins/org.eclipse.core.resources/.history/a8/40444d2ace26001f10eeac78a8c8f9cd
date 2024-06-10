@@ -1,0 +1,6 @@
+
+public class Jantar {
+	public static void main(String[] args) {
+		Comida comida = new Comida("feijão", 200);
+	}
+}

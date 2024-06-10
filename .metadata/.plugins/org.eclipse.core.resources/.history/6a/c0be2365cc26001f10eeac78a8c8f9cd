@@ -1,0 +1,11 @@
+
+public class Comida {
+	
+	String nome;
+	double pesoG;
+	
+	Comida(String nome, double grama){
+		this.nome = nome;
+		this.pesoG = peso;
+	}
+}

@@ -1,0 +1,11 @@
+
+public class Comida {
+	
+	String nome;
+	double gramas;
+	
+	Comida(String nome, double gramas){
+		this.nome = nome;
+		this.gramas = gramas;
+	}
+}

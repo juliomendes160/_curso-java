@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class OperadoresLogicos {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Informe se trabalho na terça (exemplo: \"V\" para Verdadeiro ou \"F\" para Falso):");
+		String trabalho1 = scanner.nextLine();
+		
+		System.out.println("Informe se trabalho na quinta (exemplo: \"V\" para Verdadeiro ou \"F\" para Falso):");
+		String trabalho2 = scanner.nextLine();
+		
+		boolean tv32 = trabalho1.equalsIgnoreCase("V") ^ trabalho2.equalsIgnoreCase("V");
+		boolean tv50 = trabalho1.equalsIgnoreCase("V") && trabalho2.equalsIgnoreCase("V");
+		
+		if (tv32) {
+			System.out.println("Compramos uma TV de 32 polegadas e tomamos sorvete!");
+		}
+		else if (tv50) {
+			System.out.println("Compramos uma TV de 50 polegadas e tomamos sorvete!");
+		}
+		else {
+			System.out.println("Não compramos uma TV de e não tomamos sorvete!");
+		}
+		
+		scanner.close();
+	}
+}

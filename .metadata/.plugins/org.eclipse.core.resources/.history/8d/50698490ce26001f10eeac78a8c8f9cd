@@ -1,0 +1,15 @@
+
+public class Pessoa {
+	
+	String nome;
+	double pesoQuilos;
+	
+	Pessoa(String nome, double pesoQuilos){
+		
+	}
+	
+	double Comer(Comida comida) {
+		this.pesoQuilos += comida.Quilos(); 
+		return this.pesoQuilos;
+	}
+}

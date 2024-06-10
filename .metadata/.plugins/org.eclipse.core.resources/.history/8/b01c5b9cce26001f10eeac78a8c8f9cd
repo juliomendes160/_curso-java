@@ -1,0 +1,10 @@
+
+public class Jantar {
+	public static void main(String[] args) {
+		
+		Comida comida1 = new Comida("feijão", 200);
+		Comida comida2 = new Comida("arroz", 300);
+		
+		Pessoa pessoa1 = new Pessoa("Jefferson", 100);
+	}
+}

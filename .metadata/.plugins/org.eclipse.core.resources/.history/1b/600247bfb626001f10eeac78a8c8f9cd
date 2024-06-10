@@ -1,0 +1,15 @@
+
+public class DataTeste {
+	public static void main(String[] args) {
+		
+		Data data1 = new Data();
+		Data data2 = new Data(5, 6, 2024);
+		
+		System.out.println("Data Padrão: "+ data1.Formatar(1));
+		System.out.println("Data Padrão: "+ data1.Formatar(2));
+		System.out.println();
+		
+		System.out.println("2ª Data: "+ data2.dia +"/"+ data2.mes +"/"+ data2.ano);
+		System.out.println();
+	}
+}

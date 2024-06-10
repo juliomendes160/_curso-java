@@ -1,0 +1,13 @@
+
+public class OperadoresAritmeticos {
+	
+	public static void main(String[] args) {
+		
+		double numeradorA = Math.pow(6 * (3 + 2), 2);
+		double denominadorA = 3 * 2;
+		double superiorA = numeradorA / denominadorA;
+		
+		System.out.println(superiorA);
+	}
+	
+}
