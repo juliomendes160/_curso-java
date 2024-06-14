@@ -13,9 +13,9 @@
 	</section>
 	<section name="JavaProjectWizard.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="319"/>
-		<item key="DIALOG_Y_ORIGIN" value="8"/>
+		<item key="DIALOG_Y_ORIGIN" value="98"/>
 		<item key="DIALOG_WIDTH" value="744"/>
-		<item key="DIALOG_HEIGHT" value="720"/>
+		<item key="DIALOG_HEIGHT" value="630"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="JavaElementSearchActions">
@@ -65,6 +65,21 @@
 		<item key="DIALOG_Y_ORIGIN" value="79"/>
 		<item key="DIALOG_WIDTH" value="525"/>
 		<item key="DIALOG_HEIGHT" value="500"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="RenameInformationPopup">
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="2"/>
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item key="index" value="4"/>
+	</section>
+	<section name="NewInterfaceCreationWizard.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="402"/>
+		<item key="DIALOG_Y_ORIGIN" value="8"/>
+		<item key="DIALOG_WIDTH" value="579"/>
+		<item key="DIALOG_HEIGHT" value="543"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>
