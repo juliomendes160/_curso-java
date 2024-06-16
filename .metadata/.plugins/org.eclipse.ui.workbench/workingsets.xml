@@ -12,8 +12,10 @@
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1718495977125_11" label="secao-15-banco-de-dados-com-jdbc" name="secao-15-banco-de-dados-com-jdbc">
 <item elementID="=secao-15-banco-de-dados-com-jdbc" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1718496153613_13" label="secao-14-banco-de-dados-relacional" name="secao-14-banco-de-dados-relacional"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1717856720996_2" label="Window Working Set" name="Aggregate for window 1717856720996"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1718487570151_3" label="Window Working Set" name="Aggregate for window 1718487570149"/>
+<mruList name="secao-14-banco-de-dados-relacional"/>
 <mruList name="secao-15-banco-de-dados-com-jdbc"/>
 <mruList name="secao-17-modularidade-em-java"/>
 <mruList name="secao-19-conceitos-sobre-web"/>
