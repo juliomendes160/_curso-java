@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;Dia&apos; to &apos;DiaDaSemana&apos;&#x0D;&#x0A;- Original project: &apos;9-desafio-dia-da-semana&apos;&#x0D;&#x0A;- Original element: &apos;Dia&apos;&#x0D;&#x0A;- Renamed element: &apos;DiaDaSemana&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Dia&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Dia.java[Dia" matchStrategy="1" name="DiaDaSemana" qualified="false" references="true" similarDeclarations="false" stamp="1717965514928" textual="false" version="1.0"/>
-</session>

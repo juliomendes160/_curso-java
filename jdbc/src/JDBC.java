@@ -6,7 +6,7 @@ public class JDBC {
 	public static void main(String[] args) throws SQLException {
 		final String url = "jdbc:mysql://localhost:3306?verifyServerCertificate=false&useSSL=true";
 		final String usuario = "root";
-		final String senha = "1992";
+		final String senha = "12345678";
 		
 		Connection connection = DriverManager.getConnection(url, usuario, senha);
 		
