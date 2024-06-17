@@ -14,7 +14,6 @@ public class CompraTeste {
 		System.out.println(compra1.itens.size());
 		System.out.println(compra1.obterValorTotal());
 		
-		// Só pra mostrar a relação bidirecional!!!
 		double total = compra1.itens.get(0).compra
 			.itens.get(1).compra.obterValorTotal();
 		System.out.println("O total é R$" + total);

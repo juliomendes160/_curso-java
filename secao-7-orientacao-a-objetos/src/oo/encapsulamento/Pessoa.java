@@ -32,12 +32,10 @@ public class Pessoa {
 		return getNome() + " " + getSobrenome();
 	}
 
-	// Getter
 	public int getIdade() {
 		return idade;
 	}
 
-	// Setter
 	public void setIdade(int novaIdade) {
 		novaIdade = Math.abs(novaIdade);
 		if (novaIdade >= 0 && novaIdade <= 120) {
